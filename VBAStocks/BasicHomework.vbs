@@ -6,7 +6,7 @@ Sub Stocks()
     Dim ClosePrice As Double
     Dim YearlyChange As Double
     Dim PercentChange As Double
-    Dim StockVolume As LongLong
+    Dim StockVolume As Single
     
     'Headers for summary table
     Cells(1, 9) = "Ticker"
