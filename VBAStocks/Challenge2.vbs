@@ -8,7 +8,7 @@ Sub Challenge2()
         Dim ClosePrice As Double
         Dim YearlyChange As Double
         Dim PercentChange As Double
-        Dim StockVolume As Single
+        Dim StockVolume As Double
 
     
         'Headers for summary table
@@ -95,7 +95,7 @@ Sub Challenge2()
         Dim GreatestDecreaseTicker As String
         Dim GreatestDecreasePercent As Double
         Dim GreatestVolumeTicker As String
-        Dim GreatestVolume As Single
+        Dim GreatestVolume As Double
     
         'Count rows of summary table
         LastSummaryRow = ws.Cells(Rows.Count, 9).End(xlUp).Row
